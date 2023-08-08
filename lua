@@ -33,7 +33,7 @@ local function onChatted(message)
                 else
                     print(" ")
                 end
-                wait(1) -- Wait 1 second before sending the next vote
+                wait(0.5) -- Wait 1 second before sending the next vote
             end
         end
     elseif message:sub(1, #prefixStop) == prefixStop then
